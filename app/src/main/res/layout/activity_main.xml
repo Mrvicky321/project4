@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:layout_marginTop="-13dp"
+            android:src="@drawable/ppp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="-366dp"
+            android:src="@drawable/baseline_view_headline_24" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="280dp"
+            android:src="@drawable/baseline_more_vert_24" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="-80dp"
+            android:src="@drawable/sur" />
+
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="-170dp"
+            android:layout_marginTop="49dp"
+            android:src="@drawable/park" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Nature Park"
+            android:textColor="@color/white"
+            android:layout_marginTop="139dp"
+            android:layout_marginLeft="-110dp"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="235dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="180dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="9dp"
+            android:text="Facilities"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-199dp"
+            android:layout_marginTop="59dp"
+            android:text="🍵 Food Cafe"
+            android:textColor="#474444"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-199dp"
+            android:layout_marginTop="99dp"
+            android:text="🤖 Fresh Air"
+            android:textColor="#474444"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-199dp"
+            android:layout_marginTop="139dp"
+            android:text="🅿️ Parking Area"
+            android:textColor="#474444"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-199dp"
+            android:layout_marginTop="179dp"
+            android:text="☂️ Cozy Canopy"
+            android:textColor="#474444"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="319dp"
+        android:layout_height="116dp"
+        android:layout_marginLeft="-322dp"
+        android:layout_marginTop="443dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="9dp"
+            android:text="Address"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="288dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="-200dp"
+            android:layout_marginTop="39dp"
+            android:text="14321 Saddle Wood Dr, North Little Rock
+AR, 72117"
+            android:textColor="#101010"
+            android:textSize="16sp" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="319dp"
+        android:layout_height="116dp"
+        android:layout_marginLeft="-322dp"
+        android:layout_marginTop="583dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="9dp"
+            android:text="Description"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="288dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="-200dp"
+            android:layout_marginTop="39dp"
+            android:text="Duis tellus metus, elementum a lectus id, aliquet interdum mauris. Nam bibendum efficitur sollicitudin. Proin eleifend libero velit, nec fringilla dolor finibus quis. Morbi eu libero"
+            android:textColor="#101010"
+            android:textSize="16sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
